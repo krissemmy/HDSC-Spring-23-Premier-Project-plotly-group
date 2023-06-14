@@ -10,31 +10,30 @@ Chronic kidney disease is a significant health problem with potentially fatal co
 The CKD dataset consists of a wide range of medical attributes, including age, blood pressure, serum creatinine, glucose, and other relevant features. The dataset comprises both numerical and categorical variables, which are utilized for training and evaluating the predictive models.
 
 Key Findings
-Dataset Structure: The dataset contains 400 rows and [number of 25 columns. 
+- Dataset Structure: The dataset contains 400 rows and [number of 25 columns. 
 Each row in the dataset represents a patient, and the columns correspond to different features or attributes of the patients. Here's a breakdown of the columns mentioned:
-- `age`: The age of the patient (in years)
-- `bp`: Blood pressure of the patient (measured in mmHg)
-- `sg`: Specific gravity of urine
-- `al`: Albumin present in the urine
-- `su`: Sugar present in the urine
-- `rbc`: Red blood cells in urine (either "normal" or "abnormal")
-- `pc`: Pus cell in urine (either "normal" or "abnormal")
-- `pcc`: Pus cell clumps in urine (either "present" or "not present")
-- `ba`: Bacteria present in urine (either "present" or "not present")
-- `bgr`: Blood glucose random (measured in mg/dL)
-- `pcv`: Packed cell volume
-- `wbcc`: White blood cell count (measured in cells/cubic mm)
-- `rbcc`: Red blood cell count (measured in millions/cubic mm)
-- `htn`: Whether the patient has hypertension (either "yes" or "no")
-- `dm`: Whether the patient has diabetes mellitus (either "yes" or "no")
-- `cad`: Whether the patient has coronary artery disease (either "yes" or "no")
-- `appet`: Patient's appetite (either "good" or "poor")
-- `pe`: Presence of pedal edema (either "yes" or "no")
-- `ane`: Presence of anemia (either "yes" or "no")
-- `class`: The target variable, indicating the presence or absence of chronic kidney disease (either "ckd" or "notckd")
+  - `age`: The age of the patient (in years)
+  - `bp`: Blood pressure of the patient (measured in mmHg)
+  - `sg`: Specific gravity of urine
+  - `al`: Albumin present in the urine
+  - `su`: Sugar present in the urine
+  - `rbc`: Red blood cells in urine (either "normal" or "abnormal")
+  - `pc`: Pus cell in urine (either "normal" or "abnormal")
+  - `pcc`: Pus cell clumps in urine (either "present" or "not present")
+  - `ba`: Bacteria present in urine (either "present" or "not present")
+  - `bgr`: Blood glucose random (measured in mg/dL)
+  - `pcv`: Packed cell volume
+  - `wbcc`: White blood cell count (measured in cells/cubic mm)
+  - `rbcc`: Red blood cell count (measured in millions/cubic mm)
+  - `htn`: Whether the patient has hypertension (either "yes" or "no")
+  - `dm`: Whether the patient has diabetes mellitus (either "yes" or "no")
+  - `cad`: Whether the patient has coronary artery disease (either "yes" or "no")
+  - `appet`: Patient's appetite (either "good" or "poor")
+  - `pe`: Presence of pedal edema (either "yes" or "no")
+  - `ane`: Presence of anemia (either "yes" or "no")
+  - `class`: The target variable, indicating the presence or absence of chronic kidney disease (either "ckd" or "notckd")
 
-## Target Variable Distribution: 
-- The countplot reveals that the dataset is imbalanced, with a higher proportion of individuals with chronic kidney disease compared to those with the disease. 250 of those with chronic kidney disease and 150 of those without chronic disease.
+- Target Variable Distribution: The countplot reveals that the dataset is imbalanced, with a higher proportion of individuals with chronic kidney disease compared to those with the disease. 250 of those with chronic kidney disease and 150 of those without chronic disease.
 - Outliers: Outliers were identified in only wbcc (white blood cells count) variable.
 - Correlation: The heatmap visualization indicated strong correlations between certain feature pairs, which should be considered during model training.
 - Age Distribution: The histogram of age showed that the majority of individuals in the dataset fall within a 40-60 years.
