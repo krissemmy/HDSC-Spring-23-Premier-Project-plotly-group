@@ -35,9 +35,9 @@ cd your-repository
 ```
 3. Place the chronic_kidney_disease.arff file in the repository directory. 
 4. Note: Before running the script, make sure you change the value of the variable named "bucket" to your desired AWS s3 bucket name
-5. Run the Data_Pre-processing_stage.py script:
+5. Run the Data_Pre-processing_step.py script:
 ```
-python Data_Engineers_aspect.py
+python Data_Pre-processing_aspect.py
 ```
 The processed dataset will be saved as chronic_kidney_disease.csv in the same directory.
 
