@@ -1,7 +1,5 @@
 # HDSC-Spring-23-Premier-Project-plotly-group
 
-# The data is available on [AWS s3 bucket](https://github-data-bucket.s3.amazonaws.com/chronic_kidney_disease.csv)
-
 
 ## Executive Summary
 This data analyst report provides an analysis of the Chronic Kidney Disease (CKD) dataset and aims to predict the chances of being diagnosed with chronic kidney disease. The analysis includes data exploration, cleaning, preprocessing, model selection, training, evaluation, and model deployment. The report highlights key findings and recommendations based on the analysis.
@@ -57,7 +55,7 @@ In this section, we import the necessary libraries and packages required for dat
 - Scikit-learn for machine learning algorithms and evaluation metrics
 
 ## Loading the Dataset
-The dataset for this project is obtained through a link provided by the data engineering team. We load the dataset into a Pandas DataFrame using appropriate functions or methods.
+The dataset for this project is available on an [AWS s3 bucket](https://github-data-bucket.s3.amazonaws.com/chronic_kidney_disease.csv) provided by the data engineering team after it has been cleaned and transformed. We load the dataset into a Pandas DataFrame using appropriate functions or methods.
 
 ## EDA (Exploratory Data Analysis)
 The EDA phase is crucial for understanding the dataset, identifying patterns, and gaining insights. In this section, we perform various exploratory data analysis tasks, including:
