@@ -43,7 +43,7 @@ Based on the findings from the EDA, we perform necessary data cleaning and prepr
 ## Model Selection, Training, and Evaluation
 In this section, we choose a suitable machine learning model for the given problem and train it using the training dataset. The steps involved are as follows:
 
-- Choosing a logistic regression classification model based on the given data
+- Choosing a Random Forest classification model based on the given data
 - Fitting the model to the training data
 - Making predictions on the test data
 - Evaluating the model's performance on the training and testing datasets using appropriate evaluation metrics
